@@ -1,4 +1,29 @@
 void main() {
+  
+  
+  void main() {
+Map<String,dynamic> cadastro = {
+  "nome":'Bruno',
+    'idade':16,
+  'altura':1.90,
+  'endereço':'Marechal',
+    'nome da mãe':'Jeisi',
+  'estadocivil':'Namorando',
+};
+ Map<String,dynamic> animal = {
+   'Animal':'Cachorro',
+     'Raça':'rotvailer',
+   'Nome':'Turbo',
+   'Idade':2
+ };
+
+  print(animal);
+  print(cadastro);
+    
+  }
+  
+  
+  /*
   List <int> idades = [14, 20, 13, 42, 54, 06, 89, 11];
   List <String> nome = ['Bruno', 'Marcio', 'Jhuan', 'Henrique', 'Cleyton', 'Joao','Julia','Carlos'];
   List <String> nomeDaMae = ['Tainara', 'Paulo', 'Maria', 'Julia', 'Ana', 'Annye','July','Beatriz'];
@@ -21,7 +46,7 @@ void main() {
  print('O ${nome[6]} tem ${idades[6]}, com CPF: ${cpf[6]}, Nome da mãe: ${nomeDaMae[6]}, que mora em ${endereco[6]}, que deseja estudar ${cursos[6]}.');
       print('');
  print('O ${nome[7]} tem ${idades[7]}, com CPF: ${cpf[7]}, Nome da mãe: ${nomeDaMae[7]}, que mora em ${endereco[7]}, que deseja estudar ${cursos[7]}.');
-
+*/
     /*
     List <int> idades = [14, 20, 13, 42, 54, 06];
     List <String> nome = ['Bruno', 'Marcio', 'Jhuan', 'henrique', 'Cleyton', 'Joao'];
